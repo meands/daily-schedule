@@ -1,0 +1,101 @@
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+<title>Today</title>
+</head>
+<body>
+
+    <h1>Today</h1>
+    <section class="section" id="randomButton">
+    <button id="addRandom" onclick="addRandomActivity()">Add Activity</button>
+    </section>
+    <section class="section" id="forToday">
+    <div class="type odd" id="art">
+        <div class="heading">
+        <h2>Art</h2>
+        <button id="addArt" onclick="addActivity('art')">+</button>
+        </div>
+        <div class="list">
+        <div class="instruction">
+         add an activity ...
+         </div>
+        </div>
+    </div>
+
+    <div class="type even" id="reading">
+        <div class="heading">
+        <h2>Reading</h2>
+        <button id="addReading" onclick="addActivity('reading')">+</button>
+    </div>
+    <div class="list">
+        <div class="instruction">
+        add an activity ...
+        </div>
+       </div>
+    </div>
+
+    <div class="type odd" id="study">
+        <div class="heading">
+        <h2>Study</h2>
+        <button id="addStudy" onclick="addActivity('study')">+</button>
+    </div>
+    <div class="list">
+        <div class="instruction">
+        add an activity ...
+        </div>
+       </div>
+    </div>
+    
+    <div class="type even" id="music">
+        <div class="heading">
+        <h2>Music</h2>
+        <button id="addMusic" onclick="addActivity('music')">+</button>
+    </div>
+    <div class="list">
+        <div class="instruction">
+        add an activity ...
+        </div>
+       </div>
+    </div>
+    
+    <div class="type odd" id="fitness">
+        <div class="heading">
+        <h2>Fitness</h2>
+        <button id="addFitness" onclick="addActivity('fitness')">+</button>
+    </div>
+    <div class="list">
+        <div class="instruction">
+        add an activity ...
+        </div>
+       </div>
+    </div>
+    
+    <div class="type even" id="other">
+        <div class="heading">
+        <h2>Other</h2>
+        <button id="addOther" onclick="addActivity('other')">+</button>
+    </div>
+    <div class="list">
+        <div class="instruction">
+        add an activity ...
+    </div>
+       </div>
+    </div>
+    </section>
+
+    <section class="right-section">
+        <div class="type" id="ongoing">
+            <div class="heading">
+            <h2>Ongoing</h2>
+            <button id="addOngoing" onclick="addActivity('ongoing')">+</button>
+        </div></div>
+        <div class="type" id="list">
+            <div class="heading">
+            <h2>List</h2>
+            <button id="addToList" onclick="addActivity('list')">+</button>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
